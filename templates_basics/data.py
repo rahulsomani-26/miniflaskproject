@@ -1,11 +1,11 @@
 data = [
     {
         'id': 'one',
-        'stmt': 'c:\>cd'
+        'command': 'c:\>cd'
     },
 
     {
         'id': 'two',
-        'stmt': 'c:\>git init'
+        'command': 'c:\>git init'
     }
 ]

@@ -12,19 +12,17 @@
   <div class="wrapper">
       <div class="topic-headline">Git Cheat Sheet</div>
       
+     
       <div class="steps">
-      
-
-
-        
+        {% for item in data %}
         <div class="step-mg">
-          {{data[1]['id']}}
+          {{item['id']}}
         </div>
 
-         <span class="step-ng">
-          {{data[0]['id']}}
-         </span>
-  
+         <div class="step-ng">
+          {{item['command']}}
+         </div>
+      {% endfor %}
 
 
         <!-- <span class="step"></span>
