@@ -17,7 +17,7 @@ body {
 
 .wrapper {
   background: rgb(8, 101, 206);
-  margin: auto 2rem;
+  margin: 2rem auto;
   height: 100vh;
   /* display: grid; */
   /* align-items: center; */
@@ -29,7 +29,7 @@ body {
 }
 .steps {
   background: rgb(8, 8, 8);
-  max-height: 20rem;
+  max-height: 40rem;
   max-width: 180rem;
   color: white;
   font-weight: 600;
