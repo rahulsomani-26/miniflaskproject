@@ -12,9 +12,9 @@
   <div class="wrapper">
       <div class="topic-headline">Git Cheat Sheet</div>
       
-     
+      {% for item in data %}
       <div class="steps">
-        {% for item in data %}
+       
         <div class="step-mg">
           {{item['id']}}
         </div>
